@@ -1,0 +1,7 @@
+[Unit]
+Description=Update MapCrafter Minecraft map
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash /etc/mapcrafter/run.sh
+
